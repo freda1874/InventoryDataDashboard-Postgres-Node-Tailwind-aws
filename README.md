@@ -14,10 +14,12 @@ Users can manage and visualize data dynamically with different charts and grid l
 - **Redux Toolkit Query** – for handling API calls and data fetching.
 - **Material UI Data Grid** – for creating dynamic grid tables.
 - **Recharts** – for rendering interactive charts and graphs.
+![page1](https://github.com/user-attachments/assets/508a0892-809e-4273-ab46-aaee78441caf)
 
 ### **Backend**:
 - **Node.js** with **Express** – for building the REST API.
 - **Prisma** – for database modeling and communication with **PostgreSQL**.
+![page8](https://github.com/user-attachments/assets/a3020202-8de0-4504-96e0-1a2fc4204a60)
 
 ### **AWS Services**:
 - **AWS EC2** – for hosting the backend.
@@ -32,10 +34,12 @@ Users can manage and visualize data dynamically with different charts and grid l
 1. **Data Dashboard**:
    - Visualizes data using **Recharts** (bar charts, line graphs, pie charts).
    - Provides a comprehensive view of the inventory, expenses, and user data.
-  
+  ![page2](https://github.com/user-attachments/assets/49e526f3-efd5-4b84-823a-94a2ee37e5cd)
+
 2. **Inventory Page**:
    - Displays a list of all inventory items.
    - Allows for filtering and searching through inventory.
+![page3](https://github.com/user-attachments/assets/b50e352c-bafd-4608-9b75-c5d75a7a4bc5)
 
 3. **Product Page**:
    - Shows detailed information about products in a **grid layout** using **Material UI Data Grid**.
@@ -48,10 +52,20 @@ Users can manage and visualize data dynamically with different charts and grid l
 5. **Expense Page**:
    - Provides a **dynamic pie chart** to display the expense summary.
    - Allows filtering by expense category for better analysis.
+![page5](https://github.com/user-attachments/assets/15254d42-59d9-4e17-bd6e-95d7994fabd7)
 
 6. **Settings Page**:
    - Mock page for personal settings, including dark mode, profile updates, etc.
    - Dark mode and other states are controlled using **Redux**.
+![page4](https://github.com/user-attachments/assets/85973938-ac06-4c60-a892-74e03fcfb6f8)
+
+7.**Responsive Design**:
+- middle screen size
+![page6](https://github.com/user-attachments/assets/07d63768-c8a4-4a44-9cd7-2e051e0482a0)
+- small screen size
+
+![page7](https://github.com/user-attachments/assets/160b0495-62f7-4e24-a1a1-6fe13799495c)
+
 
 ### **Backend (Server-Side)**:
 - **Node.js** with **Express** powers the backend API.
@@ -59,7 +73,6 @@ Users can manage and visualize data dynamically with different charts and grid l
 - Backend is hosted on **AWS EC2** for secure and scalable performance.
   
 ## 🚀 **Deployment**
-
 The frontend is deployed using **AWS Amplify**, and the backend is deployed on **AWS EC2**. **AWS API Gateway** manages the API endpoints, and **AWS S3** is used for storage of static assets.
   
 
