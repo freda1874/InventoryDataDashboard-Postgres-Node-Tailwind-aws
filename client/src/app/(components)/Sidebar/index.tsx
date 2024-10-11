@@ -6,6 +6,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React from 'react'
 import { useDispatch } from 'react-redux'
+import Image from "next/image";
 
 const Sidebar = () => {
     const dispatch = useDispatch();
@@ -61,7 +62,12 @@ const Sidebar = () => {
                 className={`flex gap-3 justify-between md:justify-normal items-center pt-8 ${isSidebarCollapsed ? "px-5" : "px-8"
                     }`}
             >
-                <div>logo</div>
+                <Image
+                    src="https://s3-inventorydatadashboard.s3.amazonaws.com/logo.png"
+                    alt="logo"
+                    width={25}
+                    height={25}
+                    className="rounded-full h-full object-cover" />
                 <h1 className={`${isSidebarCollapsed ? "hidden" : "block"
                     } font-extrabold text-2xl`}>FLStock</h1>
 
