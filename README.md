@@ -33,12 +33,9 @@ Users can manage and visualize data dynamically with different charts and grid l
 
 ### **Frontend (Client-Side)**:
 1. **Data Dashboard**:
-| Data Dashboard   | Price  |  
-|----------------|--------| 
-|  Visualizes data using **Recharts** (bar charts, line graphs, pie charts).        |   ![page2](https://github.com/user-attachments/assets/1d9bd530-e436-44cc-bc4b-846e38e193bd) |  
-| Provides a comprehensive view of the inventory, expenses, and user data.    |    | 
- 
-
+- Visualizes data using **Recharts** (bar charts, line graphs, pie charts).        
+- Provides a comprehensive view of the inventory, expenses, and user data.      
+ ![page2](https://github.com/user-attachments/assets/1d9bd530-e436-44cc-bc4b-846e38e193bd)
 
 3. **Inventory Page**:
    - Displays a list of all inventory items.
