@@ -34,8 +34,10 @@ const Expenses = () => {
 
     const expenses = useMemo(() => expensesData ?? [], [expensesData]);
 
-    const parseDate = (dateString: string) => {
-
+    const parseDate = (dateString: string | undefined | null) => {
+        if (!dateString) {
+            return "Invalid Date";
+        }
 
 
         return dateString.split("T")[0];
