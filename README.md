@@ -1,7 +1,7 @@
 
 # Fullstack Inventory Management Dashboard
 
-A fullstack **Inventory Management Dashboard** built with Next.js, featuring data visualization for inventory, products, expenses, and users. 
+A fullstack **Inventory Management Dashboard** built with Next.js, featuring data visualization for inventory, products, expenses, and users personal setting. 
 Utilizes Node.js with PostgreSQL for the backend, styled with Tailwind, and deployed on AWS services including EC2, RDS, and S3. 
 Users can manage and visualize data dynamically with different charts and grid layouts.
 
@@ -14,7 +14,8 @@ Users can manage and visualize data dynamically with different charts and grid l
 - **Redux Toolkit Query** – for handling API calls and data fetching.
 - **Material UI Data Grid** – for creating dynamic grid tables.
 - **Recharts** – for rendering interactive charts and graphs.
-![page1](https://github.com/user-attachments/assets/508a0892-809e-4273-ab46-aaee78441caf)
+ ![page1](https://github.com/user-attachments/assets/ba19ae1e-5adb-4164-96c6-e7fd6cf5faa2)
+
 
 ### **Backend**:
 - **Node.js** with **Express** – for building the REST API.
@@ -32,29 +33,31 @@ Users can manage and visualize data dynamically with different charts and grid l
 
 ### **Frontend (Client-Side)**:
 1. **Data Dashboard**:
-   - Visualizes data using **Recharts** (bar charts, line graphs, pie charts).
-   - Provides a comprehensive view of the inventory, expenses, and user data.
-  ![page2](https://github.com/user-attachments/assets/49e526f3-efd5-4b84-823a-94a2ee37e5cd)
+- Visualizes data using **Recharts** (bar charts, line graphs, pie charts).        
+- Provides a comprehensive view of the inventory, expenses, and user data.      
+ ![page2](https://github.com/user-attachments/assets/1d9bd530-e436-44cc-bc4b-846e38e193bd)
 
-2. **Inventory Page**:
+3. **Inventory Page**:
    - Displays a list of all inventory items.
    - Allows for filtering and searching through inventory.
 ![page3](https://github.com/user-attachments/assets/b50e352c-bafd-4608-9b75-c5d75a7a4bc5)
 
-3. **Product Page**:
+4. **Product Page**:
    - Shows detailed information about products in a **grid layout** using **Material UI Data Grid**.
    - Allows users to **create new products** directly from the dashboard.
+![page9](https://github.com/user-attachments/assets/0b9074fe-af1d-434d-8969-9a133b3cfbf8)
+![page10](https://github.com/user-attachments/assets/b7785885-13c7-4db7-82e1-fbb44488c455)
 
-4. **User Page**:
+5. **User Page**:
    - Displays a list of users using **Material UI Grid**.
    - Includes search and filter capabilities.
 
-5. **Expense Page**:
+6. **Expense Page**:
    - Provides a **dynamic pie chart** to display the expense summary.
    - Allows filtering by expense category for better analysis.
 ![page5](https://github.com/user-attachments/assets/15254d42-59d9-4e17-bd6e-95d7994fabd7)
 
-6. **Settings Page**:
+7. **Settings Page**:
    - Mock page for personal settings, including dark mode, profile updates, etc.
    - Dark mode and other states are controlled using **Redux**.
 ![page4](https://github.com/user-attachments/assets/85973938-ac06-4c60-a892-74e03fcfb6f8)
