@@ -35,7 +35,11 @@ const Expenses = () => {
     const expenses = useMemo(() => expensesData ?? [], [expensesData]);
 
     const parseDate = (dateString: string) => {
+
         const date = new Date(dateString);
+        if (isNaN(date.getTime())) {
+            return "Invalid Date"; // Or handle this error as needed
+        }
         return date.toISOString().split("T")[0];
     };
 
