@@ -1,12 +1,11 @@
 
 # Fullstack Inventory Management Dashboard
 
-A fullstack **Inventory Management Dashboard** built with Next.js, featuring data visualization for inventory, products, expenses, and users personal setting. 
-Utilizes Node.js with PostgreSQL for the backend, styled with Tailwind, and deployed on AWS services including EC2, RDS, and S3. 
+A fullstack **Inventory Management Dashboard** built with Next.js, styled with Tailwind css, featuring data visualization for inventory, products, expenses, and users personal setting. 
+Utilizes Node.js with PostgreSQL for the backend,  deployed on AWS services including EC2, RDS, and S3. 
 Users can manage and visualize data dynamically with different charts and grid layouts.
 
 ## 🛠️ **Tech Stack**
-
 ### **Frontend**:
 - **Next.js** (with TypeScript)  
 - **Tailwind CSS** – for styling.
