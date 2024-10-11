@@ -23,7 +23,7 @@ const StatCard = ({ title,
     }
 
     const getChangeColor = (value: number) => {
-        value >= 0 ? "text-green-500" : "text-red-500";
+        return value >= 0 ? "text-green-500" : "text-red-500";
     }
     return (
         <div className='md:row-span-1 xl:row-span-2 bag-white col-span-1  shadow-md rounded-2xl flex flex-col justify-between '>
