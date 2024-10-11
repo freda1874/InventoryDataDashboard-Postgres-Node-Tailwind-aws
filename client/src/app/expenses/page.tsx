@@ -39,7 +39,6 @@ const Expenses = () => {
             return "Invalid Date";
         }
 
-
         return dateString.split("T")[0];
     };
 
