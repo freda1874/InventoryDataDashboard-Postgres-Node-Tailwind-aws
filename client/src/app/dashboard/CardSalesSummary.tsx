@@ -37,7 +37,7 @@ const CardSalesSummary = () => {
         return <div className='m-5'>Failed to fetch data</div>;
     }
     return (
-        <div className="row-span-3 xl:row-span-6 bg-white shadow-md rounded-2xl flex flex-col justify-between">
+        <div className="row-span-4 xl:row-span-6 bg-white shadow-md rounded-2xl flex flex-col justify-around">
             {isLoading ? (<div className='m-5'>Loading...</div>) : (
                 <>
                     {/* HEADER */}
@@ -76,7 +76,7 @@ const CardSalesSummary = () => {
                         </div>
 
                         {/* CHART */}
-                        <ResponsiveContainer width="100%" height={350} className="px-7">
+                        <ResponsiveContainer width="100%" height={340} className="px-7">
                             <BarChart
                                 data={salesData}
                                 margin={{ top: 0, right: 0, left: -25, bottom: 0 }}
@@ -123,7 +123,7 @@ const CardSalesSummary = () => {
                     {/* FOOTER */}
                     <div>
                         <hr />
-                        <div className='flex justify-between items-center mt-1 text-sm px-7 mb-4'>
+                        <div className='flex justify-between items-center mt-5 text-sm px-7 mb-4'>
                             <p>{salesData.length || 0} days</p>
                             <p className='text-sm'>
                                 Highest Sales Date:{" "}

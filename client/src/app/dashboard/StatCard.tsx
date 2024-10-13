@@ -26,7 +26,7 @@ const StatCard = ({ title,
         return value >= 0 ? "text-green-500" : "text-red-500";
     }
     return (
-        <div className='md:row-span-1 xl:row-span-2 bag-white col-span-1  shadow-md rounded-2xl flex flex-col justify-between '>
+        <div className='md:row-span-1.5 xl:row-span-3 bag-white col-span-1  shadow-md rounded-2xl flex flex-col justify-around '>
             {/* HEADER */}
             <div>
                 <div className='flex justify-between items-center mb-2 px-5 pt-4'>
