@@ -28,20 +28,21 @@ Users can manage and visualize data dynamically with different charts and grid l
 - **AWS Amplify** – for deploying and hosting the frontend.
 - **AWS S3** – for file storage (e.g., product images, assets).
 
-<blockquote>AWS Deployment Steps for Full-Stack Web App** 
-1.Set Up VPC & Networking: 
+<blockquote>
+<h3> AWS Deployment Steps for Full-Stack Web App  </h3> 
+<h4> 1.Set Up VPC & Networking:  </h4>
 vpc ->  subnet -> 1 public subnet + 2 private subnet -> 2+ availability zone -> create and attach vpc internet gateway -> route table: each subnet has its own route table and associate them with subnets -> public route table Connects to 0.0.0.0/0 
 
-2.Set Up EC2 Instance
+<h4> 2.Set Up EC2 Instance </h4>
 -> set up EC2 instance -> Generate a Key Pair -> allow ssh traffic and https traffic from internet to public subnet and auto assign public ip -> inbound security group rules(ssh http http) -> connect to instance -> install node, git, nvm,pm2 -> in code add "0.0.0.0" to listen to internet -> create config file in code to tell what to run when using pm -> clone code to the aws -> add port to env file ->  set pm2 command to monitor restart
 
-3.Set Up RDS (Database)
+<h4> 3.Set Up RDS (Database) </h4>
  -> Create an RDS Database -> attach with 2 private subnets -> choose database and set password -> db management vpc security groups to get inbound traffic from ec2 instance -> copy endpoint to connect with ec2, add endpoint to env file -> configure db and db seed migrate 
 
-4.Deploy Frontend with AWS Amplify
+<h4>4.Deploy Frontend with AWS Amplify </h4>
  ->  amplify for frontend app -> connect with github repo -> add env variable copy public ip address -> configure api gateway to all the pages ->  get invoke url to paste it in amply env variable 
 
-5.Configure S3 for Image Storage
+<h4>5.Configure S3 for Image Storage </h4>
 -> Create a New S3 Bucket for storing images -> bucket policy add policy to allow public access ->  use image links in app  <blockquote>
 
 ## 🌟 **Features**
