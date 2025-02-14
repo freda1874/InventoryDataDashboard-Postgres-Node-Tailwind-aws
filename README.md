@@ -28,7 +28,7 @@ Users can manage and visualize data dynamically with different charts and grid l
 - **AWS Amplify** – for deploying and hosting the frontend.
 - **AWS S3** – for file storage (e.g., product images, assets).
 
-**>AWS Deployment Steps for Full-Stack Web App** 
+<blockquote>AWS Deployment Steps for Full-Stack Web App** 
 1.Set Up VPC & Networking: 
 vpc ->  subnet -> 1 public subnet + 2 private subnet -> 2+ availability zone -> create and attach vpc internet gateway -> route table: each subnet has its own route table and associate them with subnets -> public route table Connects to 0.0.0.0/0 
 
@@ -42,7 +42,7 @@ vpc ->  subnet -> 1 public subnet + 2 private subnet -> 2+ availability zone -> 
  ->  amplify for frontend app -> connect with github repo -> add env variable copy public ip address -> configure api gateway to all the pages ->  get invoke url to paste it in amply env variable 
 
 5.Configure S3 for Image Storage
--> Create a New S3 Bucket for storing images -> bucket policy add policy to allow public access ->  use image links in app 
+-> Create a New S3 Bucket for storing images -> bucket policy add policy to allow public access ->  use image links in app  <blockquote>
 
 ## 🌟 **Features**
 
