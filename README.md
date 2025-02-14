@@ -43,7 +43,7 @@ vpc ->  subnet -> 1 public subnet + 2 private subnet -> 2+ availability zone -> 
  ->  amplify for frontend app -> connect with github repo -> add env variable copy public ip address -> configure api gateway to all the pages ->  get invoke url to paste it in amply env variable 
 
 <h4>5.Configure S3 for Image Storage </h4>
--> Create a New S3 Bucket for storing images -> bucket policy add policy to allow public access ->  use image links in app  <blockquote>
+-> Create a New S3 Bucket for storing images -> bucket policy add policy to allow public access ->  use image links in app  </blockquote>
 
 ## 🌟 **Features**
 
